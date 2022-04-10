@@ -1,3 +1,30 @@
+Telepítés:
+
+1. git clone https://github.com/Szerenke/AndiBlog.git
+2. cd <Project folder>
+3. composer install
+4. npm install
+5. npm run dev
+6. cp .env.example .env
+7. A .env fájlban adatbázis adatok megadása:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=andiblog
+DB_USERNAME=root
+DB_PASSWORD=
+
+8. php artisan key:generate
+9. php artisan config:clear
+10. php artisan config:cach
+11. xampp indítása
+12. http://localhost/phpmyadmin/ oldalon andiblog adatbázis létrehozása
+13. php artisan migrate
+14. php artisan db:seed
+15. php artisan serve
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

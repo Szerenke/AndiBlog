@@ -13,6 +13,9 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{{ route('posts.index') }}">{{ __('Cikkek') }}</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ route('posts.create') }}">{{ __('Új cikk') }}</a>
+                </li>
             </ul>
             <form>
                 <input class="form-control" type="text" placeholder="Search" aria-label="Search" wire:model="searchText">
